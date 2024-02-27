@@ -104,6 +104,67 @@
         </div>
     </div>
 
+    <!-- Registraion Model -->
+    <div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <form action="registrationformhandle.php" method="post">
+                    <div class="modal-header">
+                        <h5 class="modal-title d-flex align-items-center"><i
+                                class="bi bi-person-vcard fs-3 me-2"></i>Registration Form</h5>
+                        <button type="reset" class="btn-close shadow-none" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6 ps-0 mb-3">
+                                    <label class="form-label">Full Name</label>
+                                    <input type="text" class="form-control shadow-none" />
+                                </div>
+                                <div class="col-md-6 ps-0 mb-3">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control shadow-none" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 ps-0 mb-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="number" class="form-control shadow-none" />
+                                </div>
+                                <div class="col-md-6 ps-0 mb-3">
+                                    <label class="form-label">Id Card</label>
+                                    <input type="file" class="form-control shadow-none" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 ps-0 mb-3">
+                                    <label class="form-label">Address</label>
+                                    <textarea class="form-control shadow-none" name="address" rows="1"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 ps-0 mb-3">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" class="form-control shadow-none" />
+                                </div>
+                                <div class="col-md-6 ps-0 mb-3">
+                                    <label class="form-label">Conform Password</label>
+                                    <input type="password" class="form-control shadow-none" />
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-dark shadow-none" name="signup">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Js link -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
