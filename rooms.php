@@ -7,9 +7,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basera</title>
+    <title>Basera|rooms</title>
 
-    <?php include './inc/links.php'; ?>
+    <?php include './includes/links.php'; ?>
 
     <!-- External css link -->
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
@@ -18,18 +18,17 @@
 </head>
 
 <body>
-    <?php include './inc/header.php'; ?>
+    <?php include './includes/header.php'; ?>
 
     <div class="container-fluid">
+        <!-- left side -->
         <div class="row mx-lg-3 mt-lg-5">
             <div class="col-lg-3 px-lg-0 px-md-0 bg-dark text-center text-white px-5">
                 aside1
             </div>
 
-            <!-- Our Facilities -->
-
+            <!-- Our rooms -->
             <div class="col-lg-9 px-5">
-                <!-- Our rooms -->
                 <h2 class=" pt-4 mb-4 text-center fw-bold h-font">OUR ROOMS</h2>
                 <div class="container">
                     <div class="row">
@@ -156,5 +155,3 @@
             </div>
         </div>
     </div>
-
-    <?php include './inc/footer.php'; ?>
