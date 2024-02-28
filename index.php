@@ -245,6 +245,36 @@
         </div>
     </div>
 
+    <!-- Our Facilities -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">OUR FACILITIES</h2>
+    <div class="container">
+        <div class="row justify-content-evenly px-lg-0 px-md-0 px-5">
+            <div class="col-lg-2 col-md-2 text-center bg-white shadow rounded py-4 my-3">
+                <img src="img/wifi.svg" alt="" width="80px" />
+                <h5 class="mt-3">WiFi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white shadow rounded py-4 my-3">
+                <img src="img/wifi.svg" alt="" width="80px" />
+                <h5 class="mt-3">WiFi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white shadow rounded py-4 my-3">
+                <img src="img/wifi.svg" alt="" width="80px" />
+                <h5 class="mt-3">WiFi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white shadow rounded py-4 my-3">
+                <img src="img/wifi.svg" alt="" width="80px" />
+                <h5 class="mt-3">WiFi</h5>
+            </div>
+            <div class="col-lg-2 col-md-2 text-center bg-white shadow rounded py-4 my-3">
+                <img src="img/wifi.svg" alt="" width="80px" />
+                <h5 class="mt-3">WiFi</h5>
+            </div>
+            <div class="col-lg-12 text-center mt-5">
+                <a href="#" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Facilities >>></a>
+            </div>
+        </div>
+    </div>
+
     <!-- Js link -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
