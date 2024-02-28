@@ -10,7 +10,27 @@
 
     <!-- External css link -->
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <style>
+        .availability-form {
+            margin-top: -50px;
+            z-index: 2;
+            position: relative;
+        }
 
+        @media screen and (max-width: 575px) {
+            .availability-form {
+                margin-top: 25px;
+                padding: 0 35px;
+            }
+        }
+
+        /* @media screen and (max-width:1200px) {
+            .availability-form{
+            margin-top: 25px;
+            padding-right: 35px;
+            }
+        } */
+    </style>
 </head>
 
 <body>
