@@ -6,6 +6,7 @@ Basera Hotel Website
  2. User Registration Form
  3. Check Room Availability
  4. Check Facilities
+ 5. Management System
 
 Technologies
 ------------
