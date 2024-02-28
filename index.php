@@ -46,6 +46,84 @@
         </div>
     </div>
 
+    <!-- Check Room availability -->
+    <div class="container availability-form">
+        <div class="row">
+            <div class="col-lg-12 bg-white shadow p-4 rounded">
+                <h5 class="mb-4">Check Book Availability</h5>
+                <form action="">
+                    <div class="row align-items-end">
+                        <div class="col-lg-2 mb-3">
+                            <label class="form-label" style="font-weight: 500">Check in</label>
+                            <input type="date" class="form-control shadow-none" name="dob" id="" />
+                        </div>
+                        <div class="col-lg-2 mb-3">
+                            <label class="form-label" style="font-weight: 500">Check Out</label>
+                            <input type="date" class="form-control shadow-none" name="dob" id="" />
+                        </div>
+                        <div class="col-lg-2 mb-3">
+                            <label class="form-label" style="font-weight: 500">Adult</label>
+                            <select class="form-select">
+                                <option selected>1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2 mb-3">
+                            <label class="form-label" style="font-weight: 500">Children</label>
+                            <select class="form-select">
+                                <option selected>0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <label class="form-label" style="font-weight: 500">Room Type</label>
+                            <select class="form-select">
+                                <option selected>Choose Room</option>
+                                <option value="Simple">Simple Room</option>
+                                <option value="Premium">Premium Room</option>
+                                <option value="Family">Family Room</option>
+                                <option value="Party">Party Room</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-1 mb-lg-3 mt-2">
+                            <button type="submit" id="custom-bg"
+                                class="btn text-white fw-bold shadow-none custom-bg px-2">submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- content paragrap -->
+    <div class="container text-center mt-5 mb-4">
+        <div class="row">
+            <h2 class="mt-5 mb-4 text-uppercase fw-bold h-font">Why Choose This Hotel</h2>
+        </div>
+        <div class="row">
+            <p class="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magnam aliquid deleniti maiores amet.
+                Suscipit, sunt et? Modi repellendus
+                ut assumenda corrupti rerum et, at placeat laudantium cum deserunt amet ea veniam consequatur odio eius
+                explicabo. Laudantium, molestias?
+                Maxime, doloremque, illum quo aperiam deleniti culpa obcaecati vero amet voluptatem asperiores, nobis
+                molestiae qui. Obcaecati a cupiditate
+                deleniti. Amet aut, voluptatem minus commodi consequuntur quidem ducimus officiis ipsa debitis vero
+                perspiciatis! Dicta, iure. Dolore itaque
+                sit ad? Hic, voluptates unde quae voluptas exercitationem corrupti sed quisquam! Necessitatibus, rerum
+                doloribus corrupti explicabo labore
+                ipsa recusandae, rem temporibus enim, voluptas dolorum quasi velit.
+            </p>
+        </div>
+    </div>
+
     <!-- Js link -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
