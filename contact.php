@@ -9,7 +9,6 @@
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
         integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
-    <!-- <link rel="stylesheet" href="./new.css" /> -->
 </head>
 
 <body>
@@ -76,28 +75,22 @@
                         <div class="mt-4">
                             <input type="text" class="form-control" name="name" placeholder="Full Name" required />
                         </div>
-
                         <div class="mt-4">
                             <input type="tel" class="form-control" name="tel" placeholder="Phone" required />
                         </div>
-
                         <div class="mt-4">
                             <input type="email" class="form-control" name="email" placeholder="Email" required />
                         </div>
-
                         <div class="mt-4">
                             <textarea name="message" class="form-control" id="message" cols="23" rows="2"
                                 placeholder="message" required></textarea>
                         </div>
-
                         <button class="btn btn-primary mt-4">send message</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
